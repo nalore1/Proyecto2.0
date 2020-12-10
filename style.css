@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*<!--************- BANNER -************-->*/
+.banner{
+    background-color: black;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerphoto{
+    width: 400px;
+    height: 400px;
+}
+
+.bannerphoto2{
+    width: 200px;
+    height: 200px;
+}
+
+/*<!--************- BARRA DE NAVEGACION -************-->*/
+ul li{
+    font-size: 30px;
+}
+  
+
+
+/*<!--************- CARRUSEL -************-->*/
+
+
+
+
+
+
+/*<!--************- CONTENIDO -************-->*/
+
+.textocentral{
+    text-align: center;
+}
+.titulo1{
+    font-family: 'Langar', cursive;
+    color: crimson;
+}
+.titulo2{
+    font-family: 'Langar', cursive;
+
+}
+
+
+
+.seccion2{
+
+}
+.card-group{
+
+}
+.card{
+    padding-left: 20px;
+    margin-right: 0px;
+    border: none;
+    align-items: center;
+    
+}
+
+.card-text{
+    font-size: 25px;
+    color: #afb7be;
+}
+
+
+
+
+
+.photokard1{
+    width: 30%;
+}
+
+
+.photokard2{
+    width: 30%;
+}
+
+
+.photokard3{
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+    /*<!--************- FOOTER -************-->*/
+        footer{
+            background-color: rgb(52, 58, 64);
+            width: 100%;
+            height: 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer p {
+            color: white;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .icon{
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+        .fooText{
+            margin-left: 20px;
+        }
+        .fooIma{
+            margin-right: 20px;
+        }
+
+
+
+
+  /* For width 550px and larger: */
+  @media only screen and (max-width: 991px) {
+
+    .banner{
+        height: 300px;
+    }
+
+    .bannerphoto{
+        width: 150px;
+        height: 150px;
+    }
+    .bannerphoto2{
+        width: 80px;
+        height: 80px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+                
+    }
+    
+
+
+
+  }
+
+  @media only screen and (min-width: 575px) and (max-width: 1200px) {
+
+      .photokard1{
+        width: 200px;
+        height: 200px;
+        }
+        .photokard2{
+            width: 200px;
+            height: 200px;
+            }
+            .photokard3{
+                width: 200px;
+                height: 200px;
+                }
+      .card{
+        overflow: scroll;
+        padding-left: 0;      
+    }
+    
+
+      
+
+    
+  }
