@@ -33,9 +33,10 @@ ul li{
 
 /*<!--************- CARRUSEL -************-->*/
 
+.carousel-control-prev, .carousel-control-next{
+    background-color: black;
 
-
-
+}
 
 
 /*<!--************- CONTENIDO -************-->*/
@@ -52,14 +53,6 @@ ul li{
 
 }
 
-
-
-.seccion2{
-
-}
-.card-group{
-
-}
 .card{
     padding-left: 20px;
     margin-right: 0px;
@@ -72,10 +65,6 @@ ul li{
     font-size: 25px;
     color: #afb7be;
 }
-
-
-
-
 
 .photokard1{
     width: 30%;
@@ -92,6 +81,34 @@ ul li{
 }
 
 
+/*<!--************- FOOTER -************-->*/
+footer{
+    background-color: rgb(52, 58, 64);
+     width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.fooText{
+    margin-left: 20px;
+}
+.fooIma{
+    margin-right: 20px;
+}
+        
 
 
 
@@ -99,40 +116,58 @@ ul li{
 
 
 
-    /*<!--************- FOOTER -************-->*/
-        footer{
-            background-color: rgb(52, 58, 64);
-            width: 100%;
-            height: 150px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        footer p {
-            color: white;
-            font-size: 20px;
-            font-weight: bolder;
-        }
-        .icon{
-            width: 50px;
-            height: 50px;
-            margin: 10px;
-        }
-        .fooText{
-            margin-left: 20px;
-        }
-        .fooIma{
-            margin-right: 20px;
-        }
 
 
 
+
+  /*<!--************- PAGINA NOSOTROS -************-->*/
+
+  .contenedor{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bonito{
+    border-radius: 50px;
+    margin: 100px 0 100px 0;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 5px 5px 15px black;
+} 
+
+ .bonito img{
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    margin: 40px;
+}
+
+.bonito p{
+    font-size: 25px;
+    color: black;
+    width: 50%;
+    height: 100%;
+    margin: 40px;
+    
+}
+
+
+
+
+
+/*<!--************- MEDIA QUERY -************-->*/
 
   /* For width 550px and larger: */
   @media only screen and (max-width: 991px) {
-
+    body{
+        background-color: green;
+    }
     .banner{
         height: 300px;
     }
@@ -152,6 +187,25 @@ ul li{
         align-items: center;
                 
     }
+    .carousel-item, .carousel-control-prev{
+        height: 12vh;
+    }
+    .bonito{
+        display: block;
+        text-align: center;
+    }
+    .bonito img{
+        width: 70%;
+        height: 70%;
+        border-radius: 30px;
+    }
+
+    /* .carousel-control-prev{
+        height: 100%;
+    }
+    .carousel{
+        height: 100%;
+    } */
     
 
 
@@ -159,7 +213,9 @@ ul li{
   }
 
   @media only screen and (min-width: 575px) and (max-width: 1200px) {
-
+    body{
+        background-color: yellow;
+    }
       .photokard1{
         width: 200px;
         height: 200px;
@@ -176,9 +232,40 @@ ul li{
         overflow: scroll;
         padding-left: 0;      
     }
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 80%;
+        max-width: 100%; } 
+        
+        .carousel-multi-item-2 .card img {
+        border-radius: 2px; 
+        }
     
-
+    .bonito {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 15px black;
+    }
+    
       
-
-    
   }
+
+  @media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+/* @media only screen and (max-width: 768px) {
+       
+    .carousel-multi-item-2 .card img {
+    height: 100%;; 
+
+    } 
+} */
+
+
