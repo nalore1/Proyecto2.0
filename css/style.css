@@ -188,8 +188,8 @@ footer p {
   
 }
 
-
 .card-text{
+    text-align: center;
     font-size: 25px;
     color: #afb7be;
 }
@@ -201,6 +201,11 @@ footer p {
 }
 .photoProdu3{
     width: 50%;
+}
+
+.card-titulo{
+    text-align: center;
+    color: crimson;
 }
 
 
@@ -351,8 +356,9 @@ fieldset{
         width: 80%;
         height: 80%;
     }
-    
-
+    .salto{
+        display: none;
+    }
 }
    
     
