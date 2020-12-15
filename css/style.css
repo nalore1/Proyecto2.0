@@ -35,6 +35,7 @@ ul li{
 
 .w-100{
     height: 100%;
+    object-fit: cover;
 }
 
 
@@ -158,6 +159,135 @@ footer p {
 
 
 
+
+
+
+
+
+
+/*<!--************- PAGINA PRODUCTOS -************-->*/
+
+.card{
+    margin-right: 0px;
+    border: none;
+    align-items: center;
+    
+}
+.card-body{
+    position: relative;
+}
+
+.text-muted2{
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    font-size: 50px;
+    color: rgba(220, 20, 60, 0.835) !important; 
+    font-weight: bolder;
+    
+  
+}
+
+
+.card-text{
+    font-size: 25px;
+    color: #afb7be;
+}
+.photoProdu1{
+    width: 50%;
+}
+.photoProdu2{
+    width: 50%;
+}
+.photoProdu3{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<!--************- PAGINA CONTACTO -************-->*/
+
+fieldset{
+    background-color: rgb(52, 58, 64);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: crimson;
+    width: 40%;
+    height: 20%;
+    margin: 20px;
+}
+
+.containerFiel{
+    background-color: black;
+    margin-top: 40px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fielimg{
+    width: 20%;
+    height: 20%;
+}
+.input{
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*<!--************- MEDIA QUERY -************-->*/
 
   /* For width 550px and larger: */
@@ -199,9 +329,29 @@ footer p {
         width: 80%;
         height: 100%;
     }
-    .carousel-item{
-        height: 100px;
+    .carouselImg{ 
+        height: 50vh;
     }
+
+    .containerFiel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    fieldset{
+        width: 90%;
+        height: 90%;
+    }
+    .input{
+        width: 70%;
+        height: 70%;
+    }
+    .fielimg{
+        width: 80%;
+        height: 80%;
+    }
+    
 
 }
    
@@ -228,15 +378,6 @@ footer p {
                 height: 200px;
                 }
 
-    .carousel-multi-item-2 .col-md-3 {
-        float: left;
-        width: 80%;
-        max-width: 100%; } 
-        
-        .carousel-multi-item-2 .card img {
-        border-radius: 2px; 
-        }
-    
     .bonito {
         display: flex;
         flex-direction: column;
@@ -245,7 +386,7 @@ footer p {
         box-shadow: 5px 5px 15px black;
     }
     .bonito p{
-        font-size:35px;
+        font-size:25px;
         color: black;
         width: 80%;
         height: 100%;
@@ -262,22 +403,24 @@ footer p {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
- }
+     }
+    
+    .carouselImg{ 
+        height: 88vh;
+    }
   }
 
-  @media (min-width: 768px) {
-    .carousel-multi-item-2 .col-md-3 {
-    float: left;
-    width: 25%;
-    max-width: 100%;
-    }
 
-    .carousel-multi-item-2 .card img {
-        border-radius: 2px; 
-    }
 
-}
+ @media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
     
-    
+ 
 
 
