@@ -333,9 +333,7 @@ label{
 /*<!--************- MEDIA QUERY -************-->*/
 
   @media only screen and (max-width: 991px) {
-    body{
-        background-color: green;
-    }
+
     .banner{
         height: 300px;
     }
