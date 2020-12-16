@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Productos</title>
 </head>
@@ -21,7 +23,7 @@
 
     <!--************- BARRA DE NAVEGACION -************-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Estilo Madera</a>
+        <a class="navbar-brand" href="index.html">EstiloEnMadera</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,33 +47,34 @@
       <!--************- FICHA DE CONTACTO -************-->
       <br><br>
       <div class="textocentral">
-        <h2 class="titulo1">
+        <h1 class="titulo1">
             Contactanos 
-        </h2>
+        </h1>
+        <h4 class="titulo2">Escribenos tus dudas, comentarios o sugerencias, te responderemos lo mas pronto posible.</h4>
       </div>
 
       <div class="containerFiel">
-        <img class="fielimg" src="Imagen/logo-negro.png" width="200px" height="200px" alt="">
+        <img class="fielimg" src="Imagen/logo.png" width="200px" height="200px" alt="">
         <fieldset> <br><br>
-            <label for="">Nombre</label>
-            <input class="input" type="text" name="Nombre" id="">
+            <label for="">Nombre :</label>
+            <input class="input" type="text" name="Nombre" id=""><br>
+            <br class="salto">
+            <label for="">Email :</label>
+            <input class="input" type="text" placeholder="email@email.com" name="" id=""><br>
             <br>
-            <label for="">Email</label>
-            <input class="input" type="text" placeholder="email@email.com" name="" id="">
-            <br>
-            <label for="">Sexo</label>
-            <select name="Sexo" id="">
+            <label for="">Sexo : </label>
+            <select class="seleect" name="Sexo" id="">
                 <option value="Femenino">Femenino</option>
                 <option value="Masculino">Masculino</option>
                 <option value="No responder">No responder</option>
                 <br>
-            </select> <br>
+            </select> <br><br>
             <label for="">Deseo recibir toda la informacion y novedades de Estilo Madera</label>
-            <input type="checkbox" name="" id=""> <br>
-            <textarea class="input" placeholder="Escriba su comentario aqui" name="comentario" id="" cols="30" rows="10"></textarea><br>
+            <input type="checkbox" name="" id=""> <br><br>
+            <textarea class="input comentario" placeholder="Escriba su comentario aqui" name="comentario" id="" cols="30" rows="10"></textarea><br>
             <br>
-            <input type="submit">
-            <input type="reset">
+            <input class="boton" type="submit">
+            <input class="boton" type="reset">
             <br><br>
         </fieldset>
       </div>
