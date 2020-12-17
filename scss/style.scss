@@ -79,7 +79,7 @@ ul li{
 
 .card-text{
     font-size: 25px;
-    color: #afb7be;
+    color: #b2beaf;
 }
 
 .photokard1{
@@ -198,12 +198,14 @@ footer p {
     position: absolute;
     right: 100px;
     bottom: 0;
-    font-size: 50px;
-    color: rgba(220, 20, 60, 0.835) !important; 
+    font-size: 30px;
+    color: rgba(220, 20, 60, 0.657) !important; 
     font-weight: bolder;
+}
+    
     
   
-}
+
 
 .card-text{
     font-size: 25px;
@@ -278,17 +280,17 @@ fieldset{
     border-radius: 20px;
     margin-top: 40px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
 }
 
 .fielimg{
-    width: 30%;
-    height: 30%;
+    margin-top: 20px;
+    width: 20%;
+    height: 20%;
 }
 .input{
-    width: 50%;
+    width: 80%;
     height: 50%;
     border-radius: 15px;
     background-color: rgba(52, 58, 64, 0.212);
@@ -297,7 +299,7 @@ fieldset{
 
 .comentario{
     height: 80%;
-    width: 80%;
+    width: 100%;
 }
 
 label{
