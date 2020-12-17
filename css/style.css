@@ -161,6 +161,16 @@ footer p {
   text-align: center;
   color: crimson; }
 
+.photoeffect img {
+  object-fit: cover;
+  position: relative;
+  filter: brightness(100%);
+  transition: 1s;
+  animation-duration: 4s; }
+
+.photoeffect img:hover {
+  transform: scale(1.6); }
+
 /*<!--************- PAGINA CONTACTO -************-->*/
 fieldset {
   border: none;
@@ -212,6 +222,9 @@ label {
   font-weight: bolder;
   background-color: crimson; }
 
+.jump {
+  display: none; }
+
 /*<!--************- MEDIA QUERY -************-->*/
 @media only screen and (max-width: 991px) {
   .banner {
@@ -230,14 +243,15 @@ label {
   .bonito {
     display: block;
     text-align: center;
-    height: 60vh;
+    height: 70vh;
+    width: 90%;
     overflow: scroll; }
   .bonito img {
     width: 70%;
     height: 40%;
     border-radius: 30px; }
   .bonito p {
-    font-size: 35px;
+    font-size: 25px;
     color: black;
     width: 80%;
     height: 100%; }
@@ -272,7 +286,9 @@ label {
   .seleect {
     width: 50%; }
   .jump {
-    display: inline; } }
+    display: inline; }
+  .bordeer {
+    border-top: 1px solid rgba(0, 0, 0, 0.335); } }
 
 @media only screen and (min-width: 992px) {
   /* body{
