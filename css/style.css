@@ -190,7 +190,8 @@ fieldset {
   width: 50%;
   height: 50%;
   border-radius: 15px;
-  background-color: rgba(52, 58, 64, 0.212); }
+  background-color: rgba(52, 58, 64, 0.212);
+  padding: 2%; }
 
 .comentario {
   height: 80%;
@@ -252,11 +253,13 @@ label {
   fieldset {
     width: 90%;
     height: 90%;
-    font-size: 30px; }
+    font-size: 20px; }
   .input {
-    width: 70%;
-    height: 70%; }
+    width: 80%;
+    height: 70%;
+    border-radius: 10px; }
   .fielimg {
+    margin-top: 20px;
     width: 80%;
     height: 80%; }
   .salto {
@@ -267,7 +270,9 @@ label {
     padding: 0px;
     margin-right: 0px; }
   .seleect {
-    width: 50%; } }
+    width: 50%; }
+  .jump {
+    display: inline; } }
 
 @media only screen and (min-width: 992px) {
   /* body{

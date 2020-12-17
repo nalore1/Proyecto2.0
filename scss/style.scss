@@ -282,6 +282,7 @@ fieldset{
     height: 50%;
     border-radius: 15px;
     background-color: rgba(52, 58, 64, 0.212);
+    padding: 2%;
 }
 
 .comentario{
@@ -307,6 +308,7 @@ label{
     background-color: $colorComplemental;
 }
 
+ 
 
 
 
@@ -389,13 +391,16 @@ label{
     fieldset{
         width: 90%;
         height: 90%;
-        font-size: 30px;
+        font-size: 20px;
     }
     .input{
-        width: 70%;
+        width: 80%;
         height: 70%;
+        border-radius: 10px;
+
     }
     .fielimg{
+        margin-top: 20px;
         width: 80%;
         height: 80%;
     }
@@ -410,6 +415,9 @@ label{
     }
     .seleect{
         width: 50%;
+    }
+    .jump{
+        display: inline;
     }
 }
    
